@@ -1,0 +1,33 @@
+
+ :root {
+    --1-color: #08091F;
+    --2-color: #398ffc;
+    --3-color:#F817C4;
+    --4-color:#f5b339;
+    --5-color: #FFFFFF;
+
+  }
+
+ body {
+    background-color: var(--1-color);
+    font-family: "Poppins", Sans-serif;
+    align-items: center;
+    margin: 0px;
+padding : 0px 0px 0px 120px;
+overflow-x: hidden;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    width: 120px;
+    left: 0px;
+    top: 0px;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 20px 0px 50px 0px #00000050;
+    z-index: 3;
+  }
